@@ -1,0 +1,12 @@
+{
+  "name": "WherePizza",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": "https://github.com/Cebastion/WherePizza",
+  "author": "Cebastion <kdimon2006@gimal.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "mongoose": "^8.2.2"
+  }
+}
