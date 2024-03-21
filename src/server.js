@@ -4,7 +4,7 @@ const server = express()
 const HOST = 3000
 
 server.get('/', (req, res) => {
-    res.sendFile('./index.html')
+    res.send(__dirname + 'index.html')
 })
 
 server.post('/login', (req, res) => {
