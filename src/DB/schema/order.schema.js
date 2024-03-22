@@ -1,4 +1,6 @@
-export const OrderSchema = new Document({
+import { Schema } from "mongoose";
+
+export const OrderSchema = new Schema({
     _id:  String, 
     user_id: String,
     name: String,

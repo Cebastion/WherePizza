@@ -1,3 +1,4 @@
+import mongoose from 'mongoose'
 export class db {
     constructor(ID) {
         this.ID = ID
